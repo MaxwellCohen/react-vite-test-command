@@ -16,7 +16,7 @@ function App() {
     <div className="app">
       <h1>Command attribute examples</h1>
       <p className="intro">
-        Buttons use <code>commandfor</code> to target an element by id and{" "}
+        Buttons use <code>commandFor</code> to target an element by id and{" "}
         <code>command</code> to run a built-in or custom action.
       </p>
 
@@ -26,15 +26,15 @@ function App() {
           Target: <code>#demo-popover</code> (<code>popover="auto"</code>)
         </p>
         <div className="button-row">
-          <button type="button" commandfor="demo-popover" command="show-popover">
+          <button type="button" commandFor="demo-popover" command="show-popover">
             show-popover
           </button>
-          <button type="button" commandfor="demo-popover" command="hide-popover">
+          <button type="button" commandFor="demo-popover" command="hide-popover">
             hide-popover
           </button>
           <button
             type="button"
-            commandfor="demo-popover"
+            commandFor="demo-popover"
             command="toggle-popover"
           >
             toggle-popover
@@ -42,7 +42,7 @@ function App() {
         </div>
         <div id="demo-popover" popover="auto" className="demo-popover">
           <p>Popover content</p>
-          <button type="button" commandfor="demo-popover" command="hide-popover">
+          <button type="button" commandFor="demo-popover" command="hide-popover">
             hide-popover (inside)
           </button>
         </div>
@@ -56,14 +56,14 @@ function App() {
         </p>
         <button
           type="button"
-          commandfor="dialog-show-modal"
+          commandFor="dialog-show-modal"
           command="show-modal"
         >
           show-modal
         </button>
         <dialog id="dialog-show-modal" className="demo-dialog">
           <p>Modal dialog opened with <code>show-modal</code>.</p>
-          <button type="button" commandfor="dialog-show-modal" command="close">
+          <button type="button" commandFor="dialog-show-modal" command="close">
             close
           </button>
         </dialog>
@@ -76,7 +76,7 @@ function App() {
           <code>value</code> on the button, that string becomes the dialog&apos;s{" "}
           <code>returnValue</code>.
         </p>
-        <button type="button" commandfor="dialog-close" command="show-modal">
+        <button type="button" commandFor="dialog-close" command="show-modal">
           Open dialog
         </button>
         <dialog
@@ -88,7 +88,7 @@ function App() {
           <div className="button-row">
             <button
               type="button"
-              commandfor="dialog-close"
+              commandFor="dialog-close"
               command="close"
               value="confirmed"
             >
@@ -96,7 +96,7 @@ function App() {
             </button>
             <button
               type="button"
-              commandfor="dialog-close"
+              commandFor="dialog-close"
               command="close"
               value="dismissed"
             >
@@ -126,7 +126,7 @@ function App() {
           />
           Block close on <code>cancel</code>
         </label>
-        <button type="button" commandfor="dialog-request-close" command="show-modal">
+        <button type="button" commandFor="dialog-request-close" command="show-modal">
           Open dialog
         </button>
         <dialog
@@ -152,7 +152,7 @@ function App() {
           <p>Try request-close with or without blocking:</p>
           <button
             type="button"
-            commandfor="dialog-request-close"
+            commandFor="dialog-request-close"
             command="request-close"
             value="requested"
           >
@@ -182,12 +182,12 @@ function App() {
         <div className="button-row">
           <button
             type="button"
-            commandfor="custom-target"
+            commandFor="custom-target"
             command="--highlight"
           >
             --highlight
           </button>
-          <button type="button" commandfor="custom-target" command="--reset">
+          <button type="button" commandFor="custom-target" command="--reset">
             --reset
           </button>
         </div>

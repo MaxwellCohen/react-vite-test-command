@@ -10,8 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "file:/Users/maxcohen/code/react/build/node_modules/react",
-    "react-dom": "file:/Users/maxcohen/code/react/build/node_modules/react-dom"
+    "react": "https://pkg.csb.dev/facebook/react/commit/e6910832/react",
+    "react-dom": "https://pkg.csb.dev/facebook/react/commit/e6910832/react-dom",
+    "react-server-dom-webpack": "https://pkg.csb.dev/facebook/react/commit/e6910832/react-server-dom-webpack",
+    "scheduler": "https://pkg.csb.dev/facebook/react/commit/e6910832/scheduler"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
