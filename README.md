@@ -1,6 +1,6 @@
 # react-vite-test-command
 
-Interactive demo for HTML **invoker commands**: buttons use `commandfor` to target an element by id and `command` to run a built-in or custom action. Built with React and Vite to exercise these APIs with React’s event model (`onClose`, `onCancel`, `onCommand`).
+Interactive demo for HTML **invoker commands**: buttons use `commandFor` to target an element by id and `command` to run a built-in or custom action. Built with React and Vite to exercise these APIs with React’s event model (`onClose`, `onCancel`, `onCommand`).
 
 ## Demos
 

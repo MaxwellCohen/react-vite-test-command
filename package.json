@@ -10,10 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "https://pkg.csb.dev/facebook/react/commit/e6910832/react",
-    "react-dom": "https://pkg.csb.dev/facebook/react/commit/e6910832/react-dom",
-    "react-server-dom-webpack": "https://pkg.csb.dev/facebook/react/commit/e6910832/react-server-dom-webpack",
-    "scheduler": "https://pkg.csb.dev/facebook/react/commit/e6910832/scheduler"
+    "react": "https://pkg.csb.dev/facebook/react/commit/ed96b81b/react",
+    "react-dom": "https://pkg.csb.dev/facebook/react/commit/ed96b81b/react-dom",
+    "react-server-dom-webpack": "https://pkg.csb.dev/facebook/react/commit/ed96b81b/react-server-dom-webpack",
+    "scheduler": "https://pkg.csb.dev/facebook/react/commit/ed96b81b/scheduler"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
